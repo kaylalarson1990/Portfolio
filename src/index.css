@@ -16,7 +16,7 @@ header {
 }
 
 .active {
-  color: #484848;
+  color: #7F76B8;
 }
 
 nav ul {
@@ -39,27 +39,61 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #484848;
+  color: #7F76B8;
 }
 
 nav ul li:first-child {
   margin-right: auto;
 }
 
-.hp {
+.projects {
   left: -22.952px;
   top: 0px;
-  width: 500px;
+  width: 540px;
   height: 320px;
   position: relative;
   margin: 15px;
+  -webkit-filter: grayscale(.5);
+  filter: grayscale(.5);
 }
 
-img {
+
+.container {
+  position: relative;
+  width: 45%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-color: #ffffff;
+}
+
+.container:hover .overlay {
   opacity: 1;
-  -webkit-transition: opacity 1000ms cubic-bezier(0.33, 0, 0.2, 1);
-  -moz-transition: opacity 1000ms cubic-bezier(0.33, 0, 0.2, 1);
-  -ms-transition: opacity 1000ms cubic-bezier(0.33, 0, 0.2, 1);
-  -o-transition: opacity 1000ms cubic-bezier(0.33, 0, 0.2, 1);
-  transition: opacity 1000ms cubic-bezier(0.33, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.text {
+  color: #7F76B8;
+  font-size: 28px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
