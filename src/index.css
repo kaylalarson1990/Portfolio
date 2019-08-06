@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  font-family: "Dosis", sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 header {
@@ -15,8 +15,22 @@ header {
   font-size: 15px;
 }
 
+h1 {
+  font-size: 78px;
+  margin-bottom: 10px;
+}
+
+.green-power-icon {
+  width: 100px;
+}
+
+.homepage-text {
+  font-size: 18px;
+  margin: 20px;
+}
+
 .active {
-  color: #7F76B8;
+  color: #48cd92;
 }
 
 nav ul {
@@ -28,10 +42,11 @@ nav ul {
 nav ul li {
   cursor: pointer;
   list-style-type: none;
+  font-size: 17px;
 }
 
 nav ul li a {
-  color: #b1b1b1;
+  color: black;
   display: block;
   line-height: 3em;
   padding: 0.5em 0.8em;
@@ -39,61 +54,158 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #7F76B8;
+  color: #48cd92;
 }
 
 nav ul li:first-child {
   margin-right: auto;
 }
 
-.projects {
-  left: -22.952px;
-  top: 0px;
-  width: 540px;
-  height: 320px;
-  position: relative;
-  margin: 15px;
-  -webkit-filter: grayscale(.5);
-  filter: grayscale(.5);
+.project-img {
+  width: 100%;
+  height: 100%;
 }
 
-
-.container {
-  position: relative;
-  width: 45%;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 2em;
+  padding: 50px;
 }
 
+/* hover styles */
+.location-listing {
+  position: relative;
+}
 
-.overlay {
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
   opacity: 0;
-  transition: .8s ease;
-  background-color: #ffffff;
+  transition: opacity 0.5s;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container:hover .overlay {
+.location-listing:hover .location-title {
   opacity: 1;
-  cursor: pointer;
 }
 
-.text {
-  color: #7F76B8;
-  font-size: 28px;
-  position: absolute;
-  top: 40%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.location-listing:hover .location-image img {
+  filter: blur(2px);
 }
 
-article{
+.home {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cv {
+  font-size: 13px;
+  margin-top: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.cv:hover {
+  color: #48cd92;
+}
+
+.icon {
+  width: 30px;
+  margin: 40px 20px;
+}
+
+.about-me-img-grid {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+
+.about-me-img {
+  width: 100%;
+  /* filter: grayscale(.8); */
+}
+
+.about-me-text-grid {
+  display: grid;
+  padding: 0.65rem 10rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px));
+}
+
+.about-me-sm-grid {
+  padding-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px));
+}
+
+.aboutme-text {
+  margin: 10px 40px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.github {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+/* @media (hover: none) { 
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+} */
+
+@media (max-width: 900px) {
+  .about-me-text-grid {
+    padding: 0.65rem 5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-me-text-grid {
+    padding: 0.65rem 1rem;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
 }

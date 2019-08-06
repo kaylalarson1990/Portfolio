@@ -6,49 +6,97 @@ import Jeopardy from "./images/Jeopardy.png";
 
 const Work = () => {
   return (
-    <section>
-      <h2>work</h2>
-      <article>
-      <div className="container">
-        <img
-          src={HPHomepage}
-          alt="harry potter project"
-          className="projects image"
-        />
-        <div className="overlay">
-          <p className="text">MAGIC HARRY</p>
-        </div>
-      </div>
-      <div className="container">
-        <img
-          src={MovieTracker}
-          alt="movie tracker project"
-          className="projects image"
-        />
-        <div className="overlay">
-          <p className="text">MOVIE TRACKER</p>
-        </div>
-      </div>
-      <div className="container">
-        <img
-          src={LightSide}
-          alt="light side project"
-          className="projects image"
-        />
-        <div className="overlay">
-          <p className="text">LIGHT SIDE</p>
-        </div>
-      </div>
-      <div className="container">
-        <img
-          src={Jeopardy}
-          alt="jeopardy project"
-          className="projects image"
-        />
-        <div className="overlay">
-          <p className="text">JEOPARDY</p>
-        </div>
-      </div>
+    <section class="grid-container">
+      <article className="location-listing">
+        <a
+          className="location-title"
+          href="https://github.com/kaylalarson1990/Magic_Harry"
+          target="blank"
+        >
+          <p>
+            <h2>Magic Harry</h2>
+            <ul>
+              <li>React/Redux</li>
+              <li>Jest/Enzyme</li>
+            </ul>
+            <p className="github">Click to view github repo.</p>
+          </p>
+        </a>
+        <a href="https://github.com/kaylalarson1990/Magic_Harry" target="blank">
+          <img
+            src={HPHomepage}
+            alt="harry potter project"
+            className="project-img"
+          />
+        </a>
+      </article>
+      <article className="location-listing">
+        <a
+          className="location-title"
+          href="https://github.com/kaylalarson1990/movie-tracker"
+          target="blank"
+        >
+          <p>
+            <h2>Movie Tracker</h2>
+            <ul>
+              <li>React/Redux</li>
+              <li>Jest/Enzyme</li>
+            </ul>
+            <p className="github">Click to view github repo.</p>
+          </p>
+        </a>
+        <a
+          href="https://github.com/kaylalarson1990/movie-tracker"
+          target="blank"
+        >
+          <img
+            src={MovieTracker}
+            alt="movie tracker project"
+            className="project-img"
+          />
+        </a>
+      </article>
+      <article className="location-listing">
+        <a
+          className="location-title"
+          href="https://github.com/kaylalarson1990/LightSide"
+          target="blank"
+        >
+          <p>
+            <h2>Light Side</h2>
+            <ul>
+              <li>React</li>
+              <li>Jest/Enzyme</li>
+            </ul>
+            <p className="github">Click to view github repo.</p>
+          </p>
+        </a>
+        <a href="https://github.com/kaylalarson1990/LightSide" target="blank">
+          <img
+            src={LightSide}
+            alt="ligh side project"
+            className="project-img"
+          />
+        </a>
+      </article>
+      <article className="location-listing">
+        <a
+          className="location-title"
+          href="https://github.com/kaylalarson1990/Jeopardy"
+          target="blank"
+        >
+          <p>
+            <h2>Jeopardy</h2>
+            <ul>
+              <li>Javascript/Jquery</li>
+              <li>Mocha/Chai</li>
+            </ul>
+            <p className="github">Click to view github repo.</p>
+          </p>
+        </a>
+        <a href="https://github.com/kaylalarson1990/Jeopardy" target="blank">
+          <img src={Jeopardy} alt="jeopardy project" className="project-img" />
+        </a>
       </article>
     </section>
   );
