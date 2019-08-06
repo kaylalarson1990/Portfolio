@@ -53,7 +53,6 @@ nav ul li:first-child {
   height: 320px;
   position: relative;
   margin: 15px;
-  -webkit-filter: grayscale(.5);
   filter: grayscale(.5);
 }
 
@@ -92,8 +91,46 @@ nav ul li:first-child {
   -ms-transform: translate(-50%, -50%);
 }
 
-article{
+.work {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.cv {
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.icon {
+  width: 30px;
+  margin: 40px 20px;
+}
+
+.about-me-img-grid {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+}
+
+
+.about-me-text-grid {
+  display: grid;
+  padding: .65rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px));
+}
+
+.about-me-sm-grid {
+  padding: .05rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px));
+}
+
+.aboutme-text {
+  margin: 10px 40px;
+  font-size: 18px;
+  text-align: left;
 }

@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <section>
       <h2>work</h2>
-      <article>
+      <article className="work">
       <div className="container">
         <img
           src={HPHomepage}
