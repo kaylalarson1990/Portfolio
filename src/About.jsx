@@ -1,13 +1,12 @@
 import React from "react";
-import aboutme from "./images/aboutme.jpg";
-import linkedin from "./images/001-linkedin.png";
-import github from "./images/003-github.png";
-import twitter from "./images/002-twitter.png";
+import aboutme from "./images/aboutme1.jpg";
+import linkedin from "./images/002-linkedin.png";
+import github from "./images/003-github-logo.png";
+import twitter from "./images/001-twitter-logo-button.png";
 
 const About = () => {
   return (
     <>
-      <h2>about</h2>
       <section className="about-me-img-grid">
         <article className="img">
           <img
@@ -20,7 +19,7 @@ const About = () => {
       <section className="about-me-text-grid">
         <article className="aboutme-text" id="text-article">
           <h3>
-            Mission driven front end web developer based in Denver, Colorado.
+            Passion driven front end web developer based in Denver, CO.
           </h3>
           <p>
             As a developer, I enjoy using my thorough communication skills, my
@@ -32,7 +31,9 @@ const About = () => {
               or having a beer in one of Denvers finest breweries.
             </p>
           </p>
-          <p className="cv">CV available upon request.</p>
+          <a href="https://drive.google.com/open?id=1qOOAfXzKhZhcy7Qj_HTiwV04TRfLapCB" target="blank" className="cv">
+            <p className="cv">Click here to view my resume</p>
+          </a>
         </article>
       </section>
       <section className="about-me-sm-grid">
