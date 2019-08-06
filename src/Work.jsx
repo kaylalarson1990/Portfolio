@@ -6,21 +6,21 @@ import Jeopardy from "./images/Jeopardy.png";
 
 const Work = () => {
   return (
-    <section class="grid-container">
+    <section className="grid-container">
       <article className="location-listing">
         <a
           className="location-title"
           href="https://github.com/kaylalarson1990/Magic_Harry"
           target="blank"
         >
-          <p>
+          <article>
             <h2>Magic Harry</h2>
             <ul>
               <li>React/Redux</li>
               <li>Jest/Enzyme</li>
             </ul>
             <p className="github">Click to view github repo.</p>
-          </p>
+          </article>
         </a>
         <a href="https://github.com/kaylalarson1990/Magic_Harry" target="blank">
           <img
@@ -36,14 +36,14 @@ const Work = () => {
           href="https://github.com/kaylalarson1990/movie-tracker"
           target="blank"
         >
-          <p>
+          <article>
             <h2>Movie Tracker</h2>
             <ul>
               <li>React/Redux</li>
               <li>Jest/Enzyme</li>
             </ul>
             <p className="github">Click to view github repo.</p>
-          </p>
+          </article>
         </a>
         <a
           href="https://github.com/kaylalarson1990/movie-tracker"
@@ -62,14 +62,14 @@ const Work = () => {
           href="https://github.com/kaylalarson1990/LightSide"
           target="blank"
         >
-          <p>
+          <article>
             <h2>Light Side</h2>
             <ul>
               <li>React</li>
               <li>Jest/Enzyme</li>
             </ul>
             <p className="github">Click to view github repo.</p>
-          </p>
+          </article>
         </a>
         <a href="https://github.com/kaylalarson1990/LightSide" target="blank">
           <img
@@ -85,14 +85,14 @@ const Work = () => {
           href="https://github.com/kaylalarson1990/Jeopardy"
           target="blank"
         >
-          <p>
+          <article>
             <h2>Jeopardy</h2>
             <ul>
               <li>Javascript/Jquery</li>
               <li>Mocha/Chai</li>
             </ul>
             <p className="github">Click to view github repo.</p>
-          </p>
+          </article>
         </a>
         <a href="https://github.com/kaylalarson1990/Jeopardy" target="blank">
           <img src={Jeopardy} alt="jeopardy project" className="project-img" />
