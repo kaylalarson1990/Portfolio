@@ -32,7 +32,7 @@ const About = () => {
             </p>
           </p>
           <a href="https://drive.google.com/open?id=1qOOAfXzKhZhcy7Qj_HTiwV04TRfLapCB" target="blank" className="cv">
-            <p className="cv">Click here to view my resume</p>
+            <button className="cv">Resume</button>
           </a>
         </article>
       </section>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap');
 
 * {
   box-sizing: border-box;
@@ -25,8 +25,10 @@ h1 {
 }
 
 .homepage-text {
-  font-size: 18px;
+  font-size: 28px;
   margin: 20px;
+  color: #767676;
+  font-style: italic;
 }
 
 .active {
@@ -51,6 +53,7 @@ nav ul li a {
   line-height: 3em;
   padding: 0.5em 0.8em;
   text-decoration: none;
+  letter-spacing: 0.05em;
 }
 
 nav ul li a:hover {
@@ -125,6 +128,7 @@ nav ul li:first-child {
 
 h3 {
   font-size: 48px;
+  margin-bottom: 32px;
 }
 
 h4 {
@@ -133,19 +137,9 @@ h4 {
 
 p {
   font-size: 18px;
-  font-weight: 300;
+  line-height: 1.6em;
 }
 
-.cv {
-  font-size: 13px;
-  margin-top: 50px;
-  text-decoration: none;
-  color: black;
-}
-
-.cv:hover {
-  color: #48cd92;
-}
 
 .icon {
   width: 30px;
@@ -177,6 +171,7 @@ p {
 .aboutme-text {
   margin: 10px 40px;
   font-size: 18px;
+  line-height: 3.5em;
   text-align: left;
 }
 
@@ -184,6 +179,24 @@ p {
   font-size: 12px;
   margin-top: 30px;
 }
+
+button {
+  border-radius: 30px;
+  letter-spacing: .05em;
+  padding: 10px;
+  height: 40px;
+  width: 200px;
+  font-size: 16px;
+  margin-top: 48px;
+}
+
+button:hover {
+  background-color:#48cd92;
+  border: none;
+  color: white;
+}
+
+
 
 /* @media (hover: none) { 
   .location-title {
@@ -231,7 +244,7 @@ p {
 @media (max-width: 400px) {
   nav ul li:first-child {
     margin-right: 0;
-    text-align: center
+    text-align: center;
   }
 
   nav ul {
