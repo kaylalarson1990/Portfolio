@@ -181,6 +181,7 @@ p {
 }
 
 button {
+  cursor: pointer;
   border-radius: 30px;
   letter-spacing: .05em;
   padding: 10px;

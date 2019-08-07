@@ -19,16 +19,19 @@ const Work = () => {
               <li>React/Redux</li>
               <li>Jest/Enzyme</li>
             </ul>
-            <p className="github">Click to view github repo.</p>
+            <a
+              href="https://github.com/kaylalarson1990/Magic_Harry"
+              target="blank"
+            >
+              <button className="github">Click to view github repo.</button>
+            </a>
           </article>
         </a>
-        <a href="https://github.com/kaylalarson1990/Magic_Harry" target="blank">
-          <img
-            src={HPHomepage}
-            alt="harry potter project"
-            className="project-img"
-          />
-        </a>
+        <img
+          src={HPHomepage}
+          alt="harry potter project"
+          className="project-img"
+        />
       </article>
       <article className="location-listing">
         <a
@@ -42,19 +45,19 @@ const Work = () => {
               <li>React/Redux</li>
               <li>Jest/Enzyme</li>
             </ul>
-            <p className="github">Click to view github repo.</p>
+            <a
+              href="https://github.com/kaylalarson1990/movie-tracker"
+              target="blank"
+            >
+              <button className="github">Click to view github repo.</button>
+            </a>
           </article>
         </a>
-        <a
-          href="https://github.com/kaylalarson1990/movie-tracker"
-          target="blank"
-        >
-          <img
-            src={MovieTracker}
-            alt="movie tracker project"
-            className="project-img"
-          />
-        </a>
+        <img
+          src={MovieTracker}
+          alt="movie tracker project"
+          className="project-img"
+        />
       </article>
       <article className="location-listing">
         <a
@@ -68,16 +71,15 @@ const Work = () => {
               <li>React</li>
               <li>Jest/Enzyme</li>
             </ul>
-            <p className="github">Click to view github repo.</p>
+            <a
+              href="https://github.com/kaylalarson1990/LightSide"
+              target="blank"
+            >
+              <button className="github">Click to view github repo.</button>
+            </a>
           </article>
         </a>
-        <a href="https://github.com/kaylalarson1990/LightSide" target="blank">
-          <img
-            src={LightSide}
-            alt="ligh side project"
-            className="project-img"
-          />
-        </a>
+        <img src={LightSide} alt="ligh side project" className="project-img" />
       </article>
       <article className="location-listing">
         <a
@@ -91,12 +93,15 @@ const Work = () => {
               <li>Javascript/Jquery</li>
               <li>Mocha/Chai</li>
             </ul>
-            <p className="github">Click to view github repo.</p>
+            <a
+              href="https://github.com/kaylalarson1990/Jeopardy"
+              target="blank"
+            >
+              <button className="github">Click to view github repo.</button>
+            </a>
           </article>
         </a>
-        <a href="https://github.com/kaylalarson1990/Jeopardy" target="blank">
-          <img src={Jeopardy} alt="jeopardy project" className="project-img" />
-        </a>
+        <img src={Jeopardy} alt="jeopardy project" className="project-img" />
       </article>
     </section>
   );
