@@ -19,7 +19,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/" component={() => this.homePage()} />
+          <Route exact path="/Portfolio" component={() => this.homePage()} />
           <Route exact path="/work" component={Work} />
           <Route exact path="/about" component={About} />
           <Route render={Error} />
