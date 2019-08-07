@@ -23,7 +23,7 @@ const Work = () => {
               href="https://github.com/kaylalarson1990/Magic_Harry"
               target="blank"
             >
-              <button className="github">Click to view github repo.</button>
+              <button className="github">Github Repo</button>
             </a>
           </article>
         </a>
@@ -49,7 +49,7 @@ const Work = () => {
               href="https://github.com/kaylalarson1990/movie-tracker"
               target="blank"
             >
-              <button className="github">Click to view github repo.</button>
+              <button className="github">Github Repo</button>
             </a>
           </article>
         </a>
@@ -75,7 +75,7 @@ const Work = () => {
               href="https://github.com/kaylalarson1990/LightSide"
               target="blank"
             >
-              <button className="github">Click to view github repo.</button>
+              <button className="github">Github Repo</button>
             </a>
           </article>
         </a>
@@ -97,7 +97,7 @@ const Work = () => {
               href="https://github.com/kaylalarson1990/Jeopardy"
               target="blank"
             >
-              <button className="github">Click to view github repo.</button>
+              <button className="github">Github Repo</button>
             </a>
           </article>
         </a>
