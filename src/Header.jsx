@@ -9,7 +9,7 @@ class Header extends Component {
             <ul className="nav">
               <li>
                 <a href="#">
-                  <NavLink to="/" exact activeClassName="active">
+                  <NavLink to="/Portfolio" exact activeClassName="active">
                     Home
                   </NavLink>
                 </a>
