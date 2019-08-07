@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kay-portfolio/static/css/main.afb7bc68.chunk.css",
+    "main.js": "/kay-portfolio/static/js/main.f6509111.chunk.js",
+    "main.js.map": "/kay-portfolio/static/js/main.f6509111.chunk.js.map",
+    "runtime~main.js": "/kay-portfolio/static/js/runtime~main.8b65c1e5.js",
+    "runtime~main.js.map": "/kay-portfolio/static/js/runtime~main.8b65c1e5.js.map",
+    "static/js/2.bd0224f3.chunk.js": "/kay-portfolio/static/js/2.bd0224f3.chunk.js",
+    "static/js/2.bd0224f3.chunk.js.map": "/kay-portfolio/static/js/2.bd0224f3.chunk.js.map",
+    "index.html": "/kay-portfolio/index.html",
+    "precache-manifest.11621aa6cbaf9a695b0bebc1a3b60759.js": "/kay-portfolio/precache-manifest.11621aa6cbaf9a695b0bebc1a3b60759.js",
+    "service-worker.js": "/kay-portfolio/service-worker.js",
+    "static/css/main.afb7bc68.chunk.css.map": "/kay-portfolio/static/css/main.afb7bc68.chunk.css.map",
+    "static/media/001-twitter-logo-button.png": "/kay-portfolio/static/media/001-twitter-logo-button.7d23bff1.png",
+    "static/media/002-linkedin.png": "/kay-portfolio/static/media/002-linkedin.898c0407.png",
+    "static/media/003-github-logo.png": "/kay-portfolio/static/media/003-github-logo.49ae26fb.png",
+    "static/media/HPHomepage.png": "/kay-portfolio/static/media/HPHomepage.53353125.png",
+    "static/media/Jeopardy.png": "/kay-portfolio/static/media/Jeopardy.0f7a8df3.png",
+    "static/media/LightSide.png": "/kay-portfolio/static/media/LightSide.beacdc5e.png",
+    "static/media/MovieTracker.png": "/kay-portfolio/static/media/MovieTracker.e5b45bbc.png",
+    "static/media/aboutme1.jpg": "/kay-portfolio/static/media/aboutme1.c332bce0.jpg",
+    "static/media/green-power.png": "/kay-portfolio/static/media/green-power.bf01e0f5.png"
+  }
+}
