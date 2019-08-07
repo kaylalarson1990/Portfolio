@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2437263257a5ea798208b2189e3045db",
+    "revision": "da08c6d32bb3d17daf2ede5be7b37f74",
     "url": "/kay-portfolio/index.html"
   },
   {
-    "revision": "bd8a4dfd848d1be237b4",
+    "revision": "2503e30a7efad8132c2d",
     "url": "/kay-portfolio/static/css/main.afb7bc68.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kay-portfolio/static/js/2.bd0224f3.chunk.js"
   },
   {
-    "revision": "bd8a4dfd848d1be237b4",
-    "url": "/kay-portfolio/static/js/main.f6509111.chunk.js"
+    "revision": "2503e30a7efad8132c2d",
+    "url": "/kay-portfolio/static/js/main.520c5923.chunk.js"
   },
   {
     "revision": "4f4c9330d80560898eb3",
